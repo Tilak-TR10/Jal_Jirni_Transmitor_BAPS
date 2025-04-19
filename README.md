@@ -1,5 +1,55 @@
-# Jal_Jirni_Transmitor_BAPS usig ESP8266
-Jal Jirni Ekadashi Transmitor for BAPS Boat, Seva
+🚤 **Jal Jirni Transmitter BAPS using ESP8266**
+This project is a Jal Jirni Ekadashi Transmitter designed for the BAPS Boat, allowing directional control via an Android app. It uses an ESP8266 WiFi module to wirelessly transmit commands from the app to control the boat's movements.
 
-How to Use?
-Download and install app and upload Code to ESP8266
+📱 Features
+Wireless control of boat directions via Android app
+
+Uses ESP8266 for WiFi communication
+
+Simple and effective transmitter for Ekadashi Jal Jirni events
+
+🛠️ Tech Stack
+ESP8266 NodeMCU
+
+Arduino IDE
+
+MIT App Inventor (for Android app)
+
+WiFi Communication
+
+🚀 Getting Started
+Prerequisites
+ESP8266 (NodeMCU or similar)
+
+Arduino IDE installed
+
+Android device with custom control app installed (built using MIT App Inventor)
+
+Uploading Code
+Connect ESP8266 to your PC via USB
+
+Open the Arduino IDE
+
+Load the transmitter code
+
+Select the appropriate board (e.g., "NodeMCU 1.0") and COM port
+
+Upload the code
+
+App Usage
+Open the Android app
+
+Connect to the ESP8266 WiFi network
+
+Use directional buttons to control the boat (Forward, Backward, Left, Right)
+
+📸 Demo
+Youtube: https://youtu.be/CQWjyH0tjP0
+
+⚠️ License
+This project is not licensed. Please do not reuse or distribute the code without permission.
+
+🙏 Acknowledgements
+Inspired by the traditions of BAPS Swaminarayan Sanstha
+
+Created with devotion for Jal Jirni Ekadashi
