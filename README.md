@@ -1,55 +1,51 @@
-🚤 **Jal Jirni Transmitter BAPS using ESP8266**
-This project is a Jal Jirni Ekadashi Transmitter designed for the BAPS Boat, allowing directional control via an Android app. It uses an ESP8266 WiFi module to wirelessly transmit commands from the app to control the boat's movements.
+# 🚤 Jal Jirni Transmitter BAPS using ESP8266
 
-📱 Features
-Wireless control of boat directions via Android app
+This project is a **Jal Jirni Ekadashi Transmitter** designed for the **BAPS Boat**, allowing directional control via an Android app. It uses an **ESP8266 WiFi module** to wirelessly transmit commands from the app to control the boat's movements.
 
-Uses ESP8266 for WiFi communication
+## 📱 Features
 
-Simple and effective transmitter for Ekadashi Jal Jirni events
+- Wireless control of boat directions via Android app  
+- Uses ESP8266 for WiFi communication  
+- Simple and effective transmitter for Ekadashi Jal Jirni events
 
-🛠️ Tech Stack
-ESP8266 NodeMCU
+## 🛠️ Tech Stack
 
-Arduino IDE
+- **ESP8266 NodeMCU**  
+- **Arduino IDE**  
+- **MIT App Inventor** (for Android app)  
+- **WiFi Communication**
 
-MIT App Inventor (for Android app)
+## 🚀 Getting Started
 
-WiFi Communication
+### Prerequisites
 
-🚀 Getting Started
-Prerequisites
-ESP8266 (NodeMCU or similar)
+- ESP8266 (NodeMCU or similar)  
+- Arduino IDE installed  
+- Android device with custom control app installed (built using MIT App Inventor)
 
-Arduino IDE installed
+### Uploading Code
 
-Android device with custom control app installed (built using MIT App Inventor)
+1. Connect ESP8266 to your PC via USB  
+2. Open the Arduino IDE  
+3. Load the transmitter code  
+4. Select the appropriate board (e.g., "NodeMCU 1.0") and COM port  
+5. Upload the code
 
-Uploading Code
-Connect ESP8266 to your PC via USB
+### App Usage
 
-Open the Arduino IDE
+1. Open the Android app  
+2. Connect to the ESP8266 WiFi network  
+3. Use directional buttons to control the boat (Forward, Backward, Left, Right)
 
-Load the transmitter code
+## 📸 Demo
 
-Select the appropriate board (e.g., "NodeMCU 1.0") and COM port
+> https://youtu.be/CQWjyH0tjP0
 
-Upload the code
+## ⚠️ License
 
-App Usage
-Open the Android app
+This project is **not licensed**. Please do not reuse or distribute the code without permission.
 
-Connect to the ESP8266 WiFi network
+## 🙏 Acknowledgements
 
-Use directional buttons to control the boat (Forward, Backward, Left, Right)
-
-📸 Demo
-Youtube: https://youtu.be/CQWjyH0tjP0
-
-⚠️ License
-This project is not licensed. Please do not reuse or distribute the code without permission.
-
-🙏 Acknowledgements
-Inspired by the traditions of BAPS Swaminarayan Sanstha
-
-Created with devotion for Jal Jirni Ekadashi
+- Inspired by the traditions of **BAPS Swaminarayan Sanstha**  
+- Created with devotion for **Ekadashi Jal Jirni**
